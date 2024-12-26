@@ -201,5 +201,4 @@ def stt_final_scores(st: BoardState):
     """
     Helper to call compute_final_scores properly. Returns list of length 4.
     """
-    from ..game_engine.scoring import compute_final_scores
     return compute_final_scores(st)
